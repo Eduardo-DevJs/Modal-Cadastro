@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Document</title>
+</head>
+
+<body>
+  <button class="open-modal js-open" type="button">Cadastrar Cliente</button>
+
+  <form class="js-form">
+    <div class="form">
+      <h2 class="form-titulo">Cadastro</h2>
+      <div class="nome js-erro">
+        <input class="input js-nome" type="text" placeholder="Digite seu nome">
+        <small>Por favor, insira os dados</small>
+      </div>
+      <div class="sobrenome js-erro">
+        <input class="input js-sobrenome" type="text" placeholder="Sobrenome">
+        <small>Por favor, insira os dados</small>
+      </div>
+      <div class="email js-erro">
+        <input class="input js-email" type="email" placeholder="Email">
+        <small>Por favor, insira os dados</small>
+      </div>
+      <div class="senha js-erro">
+        <input class="input js-senha" type="password" placeholder="senha">
+        <small>Por favor, insira todos os dados</small>
+      </div>
+      <button onclick="validacao()" class="btn-cadastro js-btn" type="button">Cadastrar</button>
+      <a class="link" href="/">Ja posssui uma conta? Entre</a>
+    </div>
+  </form>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
